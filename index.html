@@ -121,7 +121,7 @@
 </head>
 <body>
     <div class="header">
-        <div class="intro-text">Hi, I am Azlan, a freelancer who provides subtitle and transcription services.</div>
+        <div class="intro-text">Hi, I am Azlan, A freelancer who provides subtitle and transcription services.</div>
     </div>
 
     <div class="services">
@@ -141,7 +141,12 @@
     <div id="projects">
         <h2>My Past Projects</h2>
         <div class="project">🎬 <b>Project 4:</b> English Subtitle<br>
-            <button onclick="openVideo('p1.mp4')">Watch Video</button>
+            <!-- Before video button -->
+            <button onclick="openVideo('p1_before.mp4')">Watch Before Video</button>
+            <!-- After video button -->
+            <button onclick="openVideo('p1_after.mp4')">Watch After Video</button>
+            <br>
+            <!-- Download SRT and Transcription buttons -->
             <a href="p1.srt" download><button>Download SRT</button></a>
             <a href="p1.txt" download><button>Download Transcription (TXT)</button></a>
         </div>
@@ -162,3 +167,4 @@
     </div>
 </body>
 </html>
+
